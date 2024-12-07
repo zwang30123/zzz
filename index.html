@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyric Oracle</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+  <img src="images/background.png" alt="Decorative Background Layer" id="background-layer">
+  <img src="images/head.png" alt="Decorative Image 1" id="image1">
+  <img src="images/plate.png" alt="Decorative Image 2" id="image2">
+  <img src="images/typo.png" alt="Decorative Image 3" id="image3">
+
+  
+  <div id="app">
+    <h1>Music Time!</h1>
+    <p>Ask a question and let music guide you!</p>
+   
+    <input type="text" id="question" placeholder="What's your question?">
+    
+   
+    <input type="text" id="favoriteSong" placeholder="Your favorite song (e.g., Song by Artist)">
+
+    <label for="genre">Choose a music genre:</label>
+    <select id="genre">
+      <option value="pop">Pop</option>
+      <option value="rock">Rock</option>
+      <option value="jazz">Jazz</option>
+      <option value="country">Country</option>
+      <option value="hip-hop">Hip-Hop</option>
+    </select>
+
+    <button id="generate">Get Your Song Advice</button>
+    
+    <div id="output"></div>
+  </div>
+
+  <div id="lyrics-text">Lyrics</div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
